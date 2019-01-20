@@ -16,8 +16,11 @@ const Footer = () => {
 
   const socialLinks = linkData.map(link => {
     return (
-      <a href={link.link} target='_blank'>
-        <img src={link.icon} alt=`${link.name} logo` />
+      <a href={link.link} 
+         target='_blank' 
+         rel='noopener noreferrer'
+         key={link.name + link.link}>
+        <img src={link.icon} alt={`${link.name} logo`} />
       </a>
     )
 

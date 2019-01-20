@@ -1,0 +1,20 @@
+.Footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+h3 {
+  font-weight: 500;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.social-links {
+  margin: 0 auto;
+  width: 267px;
+}
+
+img {
+  margin: 10px;
+}
