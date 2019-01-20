@@ -1,3 +1,9 @@
+# Dog Party!
+
+## Summary
+
+[Dog Party](http://frontend.turing.io/projects/dog-party-js-edition.html) is a Mod 1 assignment at the Turing School of Software and Design. For practice, I am making this assignment using React.
+
 [![Waffle.io - Issues in progress](https://badge.waffle.io/Jessica-Erickson/Dog-Party.png?label=in%20progress&title=In%20Progress)](http://waffle.io/Jessica-Erickson/Dog-Party)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
