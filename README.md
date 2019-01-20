@@ -18,6 +18,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `npm start`
 
+### See it live:
+
+https://jessica-erickson.github.io/Dog-Party/
+
 ### Layout Spec
 
 ![Layout Spec](./src/assets/dog-party-js-edition.jpg)
