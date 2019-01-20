@@ -24,7 +24,10 @@ const Footer = () => {
   });
 
   return (
-    <h3>Learn About Dogs Online</h3>
+    <footer className='Footer'>
+      <h3>Learn About Dogs Online</h3>
+      <div className='social-links'>{socialLinks}</div>
+    </footer>
   )
 }
 
