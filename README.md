@@ -4,7 +4,7 @@
 
 [Dog Party](http://frontend.turing.io/projects/dog-party-js-edition.html) is a Mod 1 assignment at the Turing School of Software and Design. For practice, I am making this assignment using React.
 
-[![Waffle.io - Issues in progress](https://badge.waffle.io/Jessica-Erickson/Dog-Party.png?label=in%20progress&title=In%20Progress)](http://waffle.io/Jessica-Erickson/Dog-Party)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Jessica-Erickson/Dog-Party.svg?columns=all)](https://waffle.io/Jessica-Erickson/Dog-Party)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,6 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### App Structure
 
+```
 App (stateful) (filters dog cards by nav selection)
 |
 |_ Controls (stateless)
@@ -45,3 +46,4 @@ App (stateful) (filters dog cards by nav selection)
     |_ Text (stateless)
     |
     |_ Social Links (stateless)
+```
