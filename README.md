@@ -11,8 +11,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### How to get it running locally:
 
 `git clone https://github.com/Jessica-Erickson/Dog-Party.git`
+
 `cd Dog-Party`
+
 `npm i`
+
 `npm start`
 
 ### Layout Spec
