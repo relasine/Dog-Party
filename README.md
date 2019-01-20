@@ -8,6 +8,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Layout Spec
+
+![Layout Spec](./src/assets/dog-party-js-edition.jpg)
+
 ## Planning
 
 ### App Structure
