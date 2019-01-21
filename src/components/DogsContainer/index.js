@@ -3,21 +3,28 @@ import PropTypes from 'prop-types';
 import './DogsContainer.css';
 
 const DogsContainer = (props) => {
+  const allDogs = [
+  {},
+  {},
+  {}
+  ];
+
   let dogs;
 
-  if (props.category === '') {
-    dogs = props.dogs.map(dog => {
+  if (props.category === 'All Dogs') {
+    dogs = allDogs.map(dog => {
       return (
         <article></article>
       )
     });
   } else {
-    const theDog = props.dogs.find(dog => {
+    const theDog = allDogs.find(dog => {
       return props.category === dog.title;
     });
 
     dogs = <article></article>;
   }
+
   return (
     <section>
       {dogs}
@@ -26,7 +33,6 @@ const DogsContainer = (props) => {
 }
 
 DogsContainer.propTypes = {
-  dogs: PropTypes.array.isRequired,
   category: PropTypes.string.isRequired
 };
 
