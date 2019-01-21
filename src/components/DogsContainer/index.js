@@ -19,7 +19,7 @@ const DogsContainer = ({ category }) => {
   if (category === 'All Dogs') {
     dogs = allDogs.map(dog => {
       return (
-        <article></article>
+        <DogCard dog={dog} key={dog.title}/>
       )
     });
   } else {
@@ -27,7 +27,7 @@ const DogsContainer = ({ category }) => {
       return category === dog.title;
     });
 
-    dogs = <article></article>;
+    dogs = <DogCard dog={theDog} key={dog.title}/>;
   }
 
   return (

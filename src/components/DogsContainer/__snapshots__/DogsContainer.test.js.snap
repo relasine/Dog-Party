@@ -2,8 +2,35 @@
 
 exports[`should match the snapshot 1`] = `
 <section>
-  <article />
-  <article />
-  <article />
+  <DogCard
+    dog={
+      Object {
+        "image": "dog2-sq.jpg",
+        "text": "Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff.",
+        "title": "How To Dog",
+      }
+    }
+    key="How To Dog"
+  />
+  <DogCard
+    dog={
+      Object {
+        "image": "dog3-sq.jpg",
+        "text": "Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper. ruff adorable doggo very hand that feed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.",
+        "title": "What Is Dogs",
+      }
+    }
+    key="What Is Dogs"
+  />
+  <DogCard
+    dog={
+      Object {
+        "image": "dog4-sq.jpg",
+        "text": "Most angery pupper I have ever seen such treat heck, dat tungg tho. You are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.",
+        "title": "Facts From Dog",
+      }
+    }
+    key="Facts From Dog"
+  />
 </section>
 `;
