@@ -20,3 +20,9 @@ it('should have four links', () => {
 
   expect(wrapper.find('a')).toHaveLength(4);
 });
+
+it('should have four images', () => {
+  const wrapper = mount(<Footer />);
+
+  expect(wrapper.find('img')).toHaveLength(4);
+});
