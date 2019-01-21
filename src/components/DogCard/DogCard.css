@@ -1,15 +1,28 @@
 .DogCard {
+  box-sizing: border-box;
   display: inline-block;
-  max-width: 30vw;
+  padding: 4vw 3vw;
+  position: relative;
+  width: 33vw;
 }
 
 .dog-card-dog {
+  border: thick solid #048eaa;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  max-width: 20vw;
+  width: 20vw;
 }
 
 h2 {
+  margin: 0;
   text-align: center;
+}
+
+.dog-card-footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  padding: 12px 0;
+  position: relative;
+  bottom: 0;
 }

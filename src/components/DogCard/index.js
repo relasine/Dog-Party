@@ -10,7 +10,7 @@ const DogCard = ({ dog }) => {
       <h2>{dog.title}</h2>
       <img className='dog-card-dog' src={dog.image} alt='A dog portrait' />
       <p>{dog.text}</p>
-      <h3>{dogSection}</h3>
+      <h3 className='dog-card-footer'>{dogSection}</h3>
     </article>
   )
 }
