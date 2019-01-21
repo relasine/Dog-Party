@@ -1,511 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should match the snapshot 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Footer />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <h3>
-          Learn About Dogs Online
-        </h3>,
-        <div
-          className="social-links"
-        >
-          <a
-            href="https://twitter.com/search?q=dogs&src=typd"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="Twitter logo"
-              src="twitter.svg"
-            />
-          </a>
-          <a
-            href="https://www.instagram.com/dogsofinstagram/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="Instagram logo"
-              src="instagram.svg"
-            />
-          </a>
-          <a
-            href="https://www.facebook.com/BlackDogAnimalRescue/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="Facebook logo"
-              src="facebook.svg"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/company/support-dogs/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="LinkedIn logo"
-              src="linkedin.svg"
-            />
-          </a>
-        </div>,
-      ],
-      "className": "Footer",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Learn About Dogs Online",
-        },
-        "ref": null,
-        "rendered": "Learn About Dogs Online",
-        "type": "h3",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <a
-              href="https://twitter.com/search?q=dogs&src=typd"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Twitter logo"
-                src="twitter.svg"
-              />
-            </a>,
-            <a
-              href="https://www.instagram.com/dogsofinstagram/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Instagram logo"
-                src="instagram.svg"
-              />
-            </a>,
-            <a
-              href="https://www.facebook.com/BlackDogAnimalRescue/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Facebook logo"
-                src="facebook.svg"
-              />
-            </a>,
-            <a
-              href="https://www.linkedin.com/company/support-dogs/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="LinkedIn logo"
-                src="linkedin.svg"
-              />
-            </a>,
-          ],
-          "className": "social-links",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": "Twitterhttps://twitter.com/search?q=dogs&src=typd",
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="Twitter logo"
-                src="twitter.svg"
-              />,
-              "href": "https://twitter.com/search?q=dogs&src=typd",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "Twitter logo",
-                "src": "twitter.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": "Instagramhttps://www.instagram.com/dogsofinstagram/",
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="Instagram logo"
-                src="instagram.svg"
-              />,
-              "href": "https://www.instagram.com/dogsofinstagram/",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "Instagram logo",
-                "src": "instagram.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": "Facebookhttps://www.facebook.com/BlackDogAnimalRescue/",
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="Facebook logo"
-                src="facebook.svg"
-              />,
-              "href": "https://www.facebook.com/BlackDogAnimalRescue/",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "Facebook logo",
-                "src": "facebook.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": "LinkedInhttps://www.linkedin.com/company/support-dogs/",
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="LinkedIn logo"
-                src="linkedin.svg"
-              />,
-              "href": "https://www.linkedin.com/company/support-dogs/",
-              "rel": "noopener noreferrer",
-              "target": "_blank",
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "LinkedIn logo",
-                "src": "linkedin.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "a",
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "footer",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h3>
-            Learn About Dogs Online
-          </h3>,
-          <div
-            className="social-links"
-          >
-            <a
-              href="https://twitter.com/search?q=dogs&src=typd"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Twitter logo"
-                src="twitter.svg"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/dogsofinstagram/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Instagram logo"
-                src="instagram.svg"
-              />
-            </a>
-            <a
-              href="https://www.facebook.com/BlackDogAnimalRescue/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Facebook logo"
-                src="facebook.svg"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/support-dogs/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="LinkedIn logo"
-                src="linkedin.svg"
-              />
-            </a>
-          </div>,
-        ],
-        "className": "Footer",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Learn About Dogs Online",
-          },
-          "ref": null,
-          "rendered": "Learn About Dogs Online",
-          "type": "h3",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <a
-                href="https://twitter.com/search?q=dogs&src=typd"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="Twitter logo"
-                  src="twitter.svg"
-                />
-              </a>,
-              <a
-                href="https://www.instagram.com/dogsofinstagram/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="Instagram logo"
-                  src="instagram.svg"
-                />
-              </a>,
-              <a
-                href="https://www.facebook.com/BlackDogAnimalRescue/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="Facebook logo"
-                  src="facebook.svg"
-                />
-              </a>,
-              <a
-                href="https://www.linkedin.com/company/support-dogs/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="LinkedIn logo"
-                  src="linkedin.svg"
-                />
-              </a>,
-            ],
-            "className": "social-links",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": "Twitterhttps://twitter.com/search?q=dogs&src=typd",
-              "nodeType": "host",
-              "props": Object {
-                "children": <img
-                  alt="Twitter logo"
-                  src="twitter.svg"
-                />,
-                "href": "https://twitter.com/search?q=dogs&src=typd",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "Twitter logo",
-                  "src": "twitter.svg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": "Instagramhttps://www.instagram.com/dogsofinstagram/",
-              "nodeType": "host",
-              "props": Object {
-                "children": <img
-                  alt="Instagram logo"
-                  src="instagram.svg"
-                />,
-                "href": "https://www.instagram.com/dogsofinstagram/",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "Instagram logo",
-                  "src": "instagram.svg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": "Facebookhttps://www.facebook.com/BlackDogAnimalRescue/",
-              "nodeType": "host",
-              "props": Object {
-                "children": <img
-                  alt="Facebook logo"
-                  src="facebook.svg"
-                />,
-                "href": "https://www.facebook.com/BlackDogAnimalRescue/",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "Facebook logo",
-                  "src": "facebook.svg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": "LinkedInhttps://www.linkedin.com/company/support-dogs/",
-              "nodeType": "host",
-              "props": Object {
-                "children": <img
-                  alt="LinkedIn logo"
-                  src="linkedin.svg"
-                />,
-                "href": "https://www.linkedin.com/company/support-dogs/",
-                "rel": "noopener noreferrer",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "LinkedIn logo",
-                  "src": "linkedin.svg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": "a",
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "footer",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+<footer
+  className="Footer"
+>
+  <h3>
+    Learn About Dogs Online
+  </h3>
+  <div
+    className="social-links"
+  >
+    <a
+      href="https://twitter.com/search?q=dogs&src=typd"
+      key="Twitterhttps://twitter.com/search?q=dogs&src=typd"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Twitter logo"
+        src="twitter.svg"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/dogsofinstagram/"
+      key="Instagramhttps://www.instagram.com/dogsofinstagram/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Instagram logo"
+        src="instagram.svg"
+      />
+    </a>
+    <a
+      href="https://www.facebook.com/BlackDogAnimalRescue/"
+      key="Facebookhttps://www.facebook.com/BlackDogAnimalRescue/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="Facebook logo"
+        src="facebook.svg"
+      />
+    </a>
+    <a
+      href="https://www.linkedin.com/company/support-dogs/"
+      key="LinkedInhttps://www.linkedin.com/company/support-dogs/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="LinkedIn logo"
+        src="linkedin.svg"
+      />
+    </a>
+  </div>
+</footer>
 `;
