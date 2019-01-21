@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './DogsContainer.css';
+import DogCard from '../DogCard';
 
 import doggo from '../../assets/dog2-sq.jpg';
 import anotherDoggo from '../../assets/dog3-sq.jpg';
