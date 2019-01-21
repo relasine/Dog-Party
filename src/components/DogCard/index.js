@@ -6,9 +6,9 @@ const DogCard = ({ dog }) => {
   const dogSection = dog.title.split(' ')[0];
 
   return (
-    <article>
+    <article className='DogCard'>
       <h2>{dog.title}</h2>
-      <img src={dog.image} alt='A dog portrait' />
+      <img className='dog-card-dog' src={dog.image} alt='A dog portrait' />
       <p>{dog.text}</p>
       <h3>{dogSection}</h3>
     </article>

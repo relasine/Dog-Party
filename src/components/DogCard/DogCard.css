@@ -1,0 +1,15 @@
+.DogCard {
+  display: inline-block;
+  max-width: 30vw;
+}
+
+.dog-card-dog {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  max-width: 20vw;
+}
+
+h2 {
+  text-align: center;
+}
