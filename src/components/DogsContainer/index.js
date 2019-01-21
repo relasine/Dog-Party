@@ -27,7 +27,7 @@ const DogsContainer = ({ category }) => {
       return category === dog.title;
     });
 
-    dogs = <DogCard dog={theDog} key={dog.title}/>;
+    dogs = <DogCard dog={theDog} key={theDog.title}/>;
   }
 
   return (
