@@ -20,7 +20,9 @@ const Footer = () => {
          target='_blank' 
          rel='noopener noreferrer'
          key={link.name + link.link}>
-        <img src={link.icon} alt={`${link.name} logo`} />
+        <img className='footer-img' 
+             src={link.icon} 
+             alt={`${link.name} logo`} />
       </a>
     )
 
