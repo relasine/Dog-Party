@@ -17,13 +17,14 @@ h2 {
   border-radius: 50%;
   display: block;
   margin: 40px auto;
-  width: 15vw;
+  width: 225px;
 }
 
 p {
   font-weight: 600;
   font-size: 1.4rem;
   height: 310px;
+  overflow: scroll;
 }
 
 .dog-card-footer {
@@ -31,4 +32,46 @@ p {
   color: #ffffff;
   margin-top: 50px;
   padding: 14px 0;
+}
+
+@media screen and (max-width: 930px) {
+  .DogCard {
+    display: block;
+    width: 100vw;
+  }
+
+  .dog-card-dog {
+    display: inline-block;
+    width: 25vw;
+  }
+
+  p {
+    display: inline-block;
+    font-weight: 600;
+    height: auto;
+    padding-left: 4vw;
+    width: 60vw;
+  }
+
+  .dog-card-footer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .dog-card-dog {
+    display: block;
+    margin: 40px auto;
+    width: 225px;
+  }
+
+  p {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+
+  .dog-card-footer {
+    margin-top: 50px;
+  }
 }
